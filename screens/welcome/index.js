@@ -21,10 +21,10 @@ const AboutTheAppScreen = () => {
       </View>
       <View style={styles.textContainer}></View>
       <View style={styles.ypUtWRFy}>
-        <Text style={styles.RAqsYivI}>{"\n          {\"Welcome to the Mehta Engineering App! This is where you can make all payments for rent and fees.\"}\n        "}</Text>
-        <ImageBackground style={styles.DPpEmgzX} source={require("./mehta_logo1.jpg")} resizeMode="cover"></ImageBackground>
+        <Text style={styles.RAqsYivI}>{"          \"Welcome to the Mehta Engineering App! This is where you can make all payments for rent and fees.\""}</Text>
+        <ImageBackground style={styles.DPpEmgzX} source={require("./mehta_logo1.png")} resizeMode="cover"></ImageBackground>
         <Pressable onPress={() => {
-        navigation.navigate("Untitled14");
+        navigation.navigate("BasiqModule");
       }}>
           <View style={styles.pLosKTHA}></View>
         </Pressable>
@@ -72,11 +72,11 @@ const styles = StyleSheet.create({
     color: "#3b0a0a"
   },
   DPpEmgzX: {
-    width: 311,
-    height: 176,
+    width: 426,
+    height: 293,
     position: "absolute",
-    left: 22.5,
-    top: 17
+    left: -36,
+    top: -31
   },
   pLosKTHA: {
     height: 44,
