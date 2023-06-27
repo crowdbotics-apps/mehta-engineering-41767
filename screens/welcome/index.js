@@ -21,15 +21,19 @@ const AboutTheAppScreen = () => {
       </View>
       <View style={styles.textContainer}></View>
       <View style={styles.ypUtWRFy}>
-        <Text style={styles.RAqsYivI}>{"          \"Welcome to the Mehta Engineering App! This is where you can make all payments for rent and fees.\""}</Text>
+        <Text style={styles.RAqsYivI}>
+          {'          "Welcome to the Mehta Engineering App! This is where you can make all payments for rent and fees."'}
+        </Text>
         <ImageBackground style={styles.DPpEmgzX} source={require("./mehta_logo1.png")} resizeMode="cover"></ImageBackground>
         <Pressable onPress={() => {
-        navigation.navigate("BasiqModule");
+        navigation.navigate("Untitled8", {});
       }}>
           <View style={styles.pLosKTHA}></View>
         </Pressable>
         <Text style={styles.nuhQMktJ}>{"Make a Payment!"}</Text>
-      <ImageBackground style={styles.fTzwqmYh} source={require("./mehta2.png")} resizeMode="cover"></ImageBackground></View>
+        <ImageBackground style={styles.fTzwqmYh} source={require("./mehta2.png")} resizeMode="cover"></ImageBackground>
+      </View>
+      
     </SafeAreaView>;
 };
 
