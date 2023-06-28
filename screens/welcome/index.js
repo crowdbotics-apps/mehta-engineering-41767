@@ -33,7 +33,6 @@ const AboutTheAppScreen = () => {
         <Text style={styles.nuhQMktJ}>{"Make a Payment!"}</Text>
         <ImageBackground style={styles.fTzwqmYh} source={require("./mehta2.png")} resizeMode="cover"></ImageBackground>
       </View>
-      
     </SafeAreaView>;
 };
 
