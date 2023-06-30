@@ -1,9 +1,8 @@
-import { Text } from "react-native";
-import { ImageBackground } from "react-native";
 import React from "react";
-import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { View, StyleSheet, ScrollView, SafeAreaView, Webview } from "react-native";
 
 const Untitled8 = () => {
+  const linkdestination = "https://buy.stripe.com/00g6rMbnX51zgQU8ww";
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
       backgroundColor: "#f0f0f1",
@@ -11,11 +10,11 @@ const Untitled8 = () => {
       position: "relative",
       flex: 1
     }}>
-        <View style={styles.qFXCXpTL}>
-          <ImageBackground style={styles.gixEwkqs} source={require("./qr_00g6rMbnX51zgQU8ww.png")} resizeMode="cover"></ImageBackground>
-          <Text style={styles.xkpVkwVN}>
-            {"https://buy.stripe.com/00g6rMbnX51zgQU8ww"}
-          </Text>
+        <View style={styles.qFXCXpTL}></View>
+        <View style={styles.igCMmXva}>
+          <Webview source={{
+          uri: 'https://buy.stripe.com/00g6rMbnX51zgQU8ww'
+        }} />
         </View>
       </ScrollView>
     </SafeAreaView>;
@@ -36,22 +35,8 @@ const styles = StyleSheet.create({
     left: -4,
     top: 1
   },
-  gixEwkqs: {
-    width: 228,
-    height: 196,
-    position: "absolute",
-    left: 87.5,
-    top: 315
-  },
-  xkpVkwVN: {
-    width: 338,
-    height: 50,
-    lineHeight: 14,
-    fontSize: 14,
-    borderRadius: 0,
-    position: "absolute",
-    left: 20,
-    top: 155
+  igCMmXva: {
+    flex: 1
   }
 });
 export default Untitled8;
