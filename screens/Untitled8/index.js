@@ -13,7 +13,7 @@ const Untitled8 = () => {
         <View style={styles.qFXCXpTL}></View>
         <View style={styles.igCMmXva}>
           <Webview source={{
-          uri: 'https://buy.stripe.com/00g6rMbnX51zgQU8ww'
+          uri: "https://buy.stripe.com/00g6rMbnX51zgQU8ww"
         }} />
         </View>
       </ScrollView>
