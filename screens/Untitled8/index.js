@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView, Webview } from "react-native";
 
-const Untitled8 = () => {
+const Payments = () => {
   const linkdestination = "https://buy.stripe.com/00g6rMbnX51zgQU8ww";
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
@@ -39,4 +39,4 @@ const styles = StyleSheet.create({
     flex: 1
   }
 });
-export default Untitled8;
+export default Payments;
