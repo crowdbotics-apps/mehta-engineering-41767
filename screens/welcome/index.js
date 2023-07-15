@@ -1,12 +1,9 @@
-import { useNavigation } from "@react-navigation/native";
 import { Pressable } from "react-native";
 import { ImageBackground } from "react-native";
 import React, { useState, useEffect } from "react";
 import { Text, StyleSheet, View, SafeAreaView } from "react-native";
 
 const AboutTheAppScreen = () => {
-  const navigation = useNavigation();
-  const [ImageSource, setImageSource] = useState();
   const [text1, setText1] = useState("");
   const [text2, setText2] = useState("");
   useEffect(() => {
@@ -20,9 +17,7 @@ const AboutTheAppScreen = () => {
           {'          "Welcome to the Mehta Engineering App! This is where you can make all payments for rent and fees."'}
         </Text>
         <ImageBackground style={styles.DPpEmgzX} source={require("./mehta_logo1.png")} resizeMode="cover"></ImageBackground>
-        <Pressable onPress={() => {
-        navigation.navigate("Untitled8", {});
-      }}>
+        <Pressable onPress={() => {}}>
           <View style={styles.pLosKTHA}></View>
         </Pressable>
         <Text style={styles.nuhQMktJ}>{"Make a Payment!"}</Text>
@@ -36,15 +31,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "flex-start",
     backgroundColor: "#ffffff"
-  },
-  imgScroller: {
-    flexDirection: "column",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginVertical: 20
-  },
-  threeDots: {
-    marginTop: 20
   },
   textContainer: {
     paddingHorizontal: 20
