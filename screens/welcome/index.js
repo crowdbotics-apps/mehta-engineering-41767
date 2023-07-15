@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
     fontSize: 17,
     borderRadius: 0,
     position: "absolute",
-    left: 30,
-    top: 200,
+    left: 54,
+    top: 233,
     textAlign: "left",
     fontFamily: "Crimson Text",
     color: "#3b0a0a"
@@ -59,8 +59,8 @@ const styles = StyleSheet.create({
     width: 426,
     height: 293,
     position: "absolute",
-    left: -36,
-    top: -31
+    left: -33,
+    top: 2
   },
   pLosKTHA: {
     height: 44,
@@ -69,15 +69,15 @@ const styles = StyleSheet.create({
     borderRadius: 21,
     color: "#777777",
     position: "absolute",
-    left: 71,
-    top: 462,
+    left: 67,
+    top: 544,
     borderWidth: 4,
     borderColor: "#3e1c1c",
     opacity: 1
   },
   nuhQMktJ: {
     width: 161,
-    height: 50,
+    height: 20,
     lineHeight: 14,
     fontSize: 20,
     borderRadius: 0,
@@ -85,14 +85,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
     position: "absolute",
     left: 97.5,
-    top: 475
+    top: 557
   },
   fTzwqmYh: {
-    width: 353,
-    height: 133,
+    width: 474,
+    height: 244,
     position: "absolute",
-    left: 0,
-    top: 292
+    left: -60,
+    top: 254
   }
 });
 export default AboutTheAppScreen;
